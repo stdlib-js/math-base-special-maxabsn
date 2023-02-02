@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import maxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabsn@esm/index.mjs';
+import maxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabsn@v0.0.1-esm/index.mjs';
 ```
 
 #### maxabsn( \[x\[, y\[, ...args]]] )
@@ -107,7 +107,7 @@ var v = maxabsn();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import maxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabsn@esm/index.mjs';
+import maxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabsn@v0.0.1-esm/index.mjs';
 
 var x;
 var y;
