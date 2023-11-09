@@ -160,13 +160,6 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
-* * *
-
-## See Also
-
--   <span class="package-name">[`@stdlib/math-base/special/max`][@stdlib/math/base/special/max]</span><span class="delimiter">: </span><span class="description">return the maximum value.</span>
--   <span class="package-name">[`@stdlib/math-base/special/minabs`][@stdlib/math/base/special/minabs]</span><span class="delimiter">: </span><span class="description">return the minimum absolute value.</span>
-
 </section>
 
 <!-- /.related -->
@@ -241,10 +234,6 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-maxabsn/main/LICENSE
 
 <!-- <related-links> -->
-
-[@stdlib/math/base/special/max]: https://github.com/stdlib-js/math-base-special-max
-
-[@stdlib/math/base/special/minabs]: https://github.com/stdlib-js/math-base-special-minabs
 
 <!-- </related-links> -->
 
