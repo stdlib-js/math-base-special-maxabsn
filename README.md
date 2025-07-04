@@ -131,6 +131,7 @@ var v = maxabsn();
 
 ```javascript
 var uniform = require( '@stdlib/random-array-uniform' );
+var naryFunction = require( '@stdlib/utils-nary-function' );
 var logEachMap = require( '@stdlib/console-log-each-map' );
 var maxabsn = require( '@stdlib/math-base-special-maxabsn' );
 
@@ -140,11 +141,7 @@ var opts = {
 var x = uniform( 100, -500.0, 500.0, opts );
 var y = uniform( 100, -500.0, 500.0, opts );
 
-function wrapper( a, b ) {
-    return maxabsn( a, b );
-}
-
-logEachMap( 'maxabsn(%0.4f,%0.4f) = %0.4f', x, y, wrapper );
+logEachMap( 'maxabsn(%0.4f,%0.4f) = %0.4f', x, y, naryFunction( maxabsn, 2 ) );
 ```
 
 </section>
