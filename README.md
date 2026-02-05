@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import maxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabsn@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-maxabsn/tags). For example,
+
+```javascript
 import maxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabsn@v0.2.3-deno/mod.js';
 ```
 
@@ -115,7 +120,7 @@ var v = maxabsn();
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import maxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabsn@v0.2.3-deno/mod.js';
+import maxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabsn@deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
