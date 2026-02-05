@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import maxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabsn@deno/mod.js';
+import maxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabsn@v0.2.3-deno/mod.js';
 ```
 
 #### maxabsn( \[x\[, y\[, ...args]]] )
@@ -115,7 +115,7 @@ var v = maxabsn();
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import maxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabsn@deno/mod.js';
+import maxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabsn@v0.2.3-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
